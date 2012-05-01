@@ -10,5 +10,5 @@ A project for testing string-represented component-based language.
 3. It's possible to link two componets In Parallel without any condition.
 4. Linking In Parallel has higher priority than linking Serially.
 5. Parenthesis are allowed.
-6. Linking Serially is represented by cascading the two components without any seperator
+6. Linking Serially is represented by cascading the two components without any seperator.
 7. Linking In Parallel is represented by seperating the two components with a & sign.
