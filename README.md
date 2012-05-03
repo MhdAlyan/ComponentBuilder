@@ -11,11 +11,8 @@ A project for checking string-represented component-based language.
 4. Linking In Parallel has a higher priority than linking Serially.
 5. Allowed Characters are: `digits`, `,` comma, `(`, `)`, `<`, `>`, `&`, and `whitespaces`.
 6. A simple component should be represented as `<Inports_Number,Outports_Number>`.
-7. A token is one of the following: `Number`, `,` comma, `(`, `)`, `<`, `>`, `&`, and a simple component.
-8. Parenthesis are allowed between simple and composite components, and cannot appear 
+7. A token is one of the following: `Number`, `,` comma, `<`, `>`, `(`, `)`, and `&`.
+8. Parenthesis are allowed between simple and composite components, and cannot appear.
 9. Linking Serially is represented by cascading the two components without any seperator.
 10. Linking In Parallel is represented by seperating the two components with a & sign.
-11. Whitespaces:
- * They cannot occur inside a number.
- * line breaks cannot occur inside a number of a token.
- * Apart from that, the language is whitespace insensitive.
+11. All white spaces are removed while checking.
